@@ -3,7 +3,6 @@ package com.adaidam;
 public class Rock {
     String cpuAnswer;
 
-
     public Rock(int choice) {
         switch (choice) {
             case 1:
@@ -20,11 +19,15 @@ public class Rock {
         }
     }
 
+
     public int checkOutcome() {
         if(cpuAnswer.equals("scissors")){
             return 1;
         } else {
             return 0;
         }
+    }
+    public String getCpuAnswer() {
+        return cpuAnswer;
     }
 }

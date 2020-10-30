@@ -4,7 +4,7 @@ public class Paper {
     String cpuAnswer;
 
 
-    public Scissors(int choice) {
+    public void Scissors(int choice) {
         switch (choice) {
             case 1:
                 cpuAnswer = "rock";
@@ -26,5 +26,9 @@ public class Paper {
         } else {
             return 0;
         }
+    }
+
+    public String getCpuAnswer() {
+        return cpuAnswer;
     }
 }

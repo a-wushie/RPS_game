@@ -27,4 +27,8 @@ public class Scissors {
             return 0;
         }
     }
+
+    public String getCpuAnswer() {
+        return cpuAnswer;
+    }
 }
